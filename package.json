@@ -1,5 +1,8 @@
 {
   "devDependencies": {
-    "cypress": "^13.17.0"
+    "cypress": "^13.17.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-plugin-tab": "^2.0.0",
+    "cypress-xpath": "^2.0.1"
   }
 }
