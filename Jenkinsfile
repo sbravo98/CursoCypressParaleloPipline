@@ -18,8 +18,6 @@ pipeline {
                         git url: 'https://github.com/sbravo98/CursoCypressParaleloPipline.git'
 
                         bat 'npm install'
-                        bat 'npm update'
-
                         bat 'npx cypress run --record --key 91f1b105-b716-4490-bcd1-537691154f27 --parallel --ci-build-id %BUILD_NUMBER%'
                     }
                 }
@@ -34,24 +32,20 @@ pipeline {
                         git url: 'https://github.com/sbravo98/CursoCypressParaleloPipline.git'
 
                         bat 'npm install'
-                        bat 'npm update'
-
                         bat 'npx cypress run --record --key 91f1b105-b716-4490-bcd1-537691154f27 --parallel --ci-build-id %BUILD_NUMBER%'
                     }
                 }
 
-                stage('Slave 5') {
+                stage('Slave 3') {
 
                     agent {
-                        label 'Agente1_5'
+                        label 'Agente1_3'
                     }
 
                     steps {
                         git url: 'https://github.com/sbravo98/CursoCypressParaleloPipline.git'
 
                         bat 'npm install'
-                        bat 'npm update'
-
                         bat 'npx cypress run --record --key 91f1b105-b716-4490-bcd1-537691154f27 --parallel --ci-build-id %BUILD_NUMBER%'
                     }
                 }
