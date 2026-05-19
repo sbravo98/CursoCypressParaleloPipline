@@ -20,7 +20,7 @@ pipeline {
                         bat 'npm install'
                         bat 'npm update'
 
-                        bat 'npx cypress run --record --key 9b1c8e7a-5c0d-4f2e-9b3c-8a1e5f6d7c8e --parallel'
+                        bat 'npx cypress run --record --key 91f1b105-b716-4490-bcd1-537691154f27 --parallel'
                     }
                 }
 
@@ -36,7 +36,7 @@ pipeline {
                         bat 'npm install'
                         bat 'npm update'
 
-                        bat 'npx cypress run --record --key 9b1c8e7a-5c0d-4f2e-9b3c-8a1e5f6d7c8e --parallel'
+                        bat 'npx cypress run --record --key 91f1b105-b716-4490-bcd1-537691154f27 --parallel'
                     }
                 }
 
@@ -52,7 +52,7 @@ pipeline {
                         bat 'npm install'
                         bat 'npm update'
 
-                        bat 'npx cypress run --record --key 9b1c8e7a-5c0d-4f2e-9b3c-8a1e5f6d7c8e --parallel'
+                        bat 'npx cypress run --record --key 91f1b105-b716-4490-bcd1-537691154f27 --parallel'
                     }
                 }
             }
