@@ -13,6 +13,7 @@ describe (" Elementos de una tabla ",() => {
         cy.get('#password').should('be.visible').type("mikareno");
         cy.xpath('//*[@id="loginForm"]/div[2]/button').should('be.visible').click();
         cy.get('.main-account').should('be.visible').click();
+        cy.wait(5000);
 
         })
 
